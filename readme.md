@@ -1,0 +1,1 @@
+El protyecto es muy basico contiene Html5 css y JS, esta seteado para que envie mails y guarde datos con MySQL.Trata de un empresa de Hoteleria y Turismo.

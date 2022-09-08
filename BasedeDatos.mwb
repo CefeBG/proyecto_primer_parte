@@ -1,0 +1,9 @@
+create database tupungato
+use tupungato
+create table registro(
+    idRegistro int not null primary key auto_increment,
+    email not null varchar(50),
+    nombre not null varchar(50),
+    contacto not null varchar(25)
+    personas varchar(10)
+)
