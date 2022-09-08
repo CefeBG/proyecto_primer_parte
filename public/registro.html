@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Registrar usuario</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="/CSS/registro.css">
+</head>
+<body>
+	<header class="p-3 text-bg-dark">
+		<div class="container">
+			<div class="">
+			<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0">
+				<li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+				<li><a href="inicio.html" class="nav-link px-2 text-white">Tupungato</a></li>
+				<li><a href="tarifas.html" class="nav-link px-2 text-white">Tarifas</a></li>
+				
+			</ul>
+		</div>
+		</div>
+	</header>
+	<form action="/registro" method="post" class="contenedor">
+	<div class="form-group">
+			<label for="exampleFormControlInput1">Email</label>
+			<input type="email" class="form-control" name="email" id="email" placeholder="email@ejemplo.com">
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlInput1">Nombre Completo</label>
+		<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlInput1">Número de Contacto</label>
+		<input type="tel" class="form-control" name="contacto" id="contacto" placeholder="Telefono">
+	</div>
+	<div class="form-group">
+			<label for="exampleFormControlSelect1">Personas</label>
+			<select class="form-control" name="personas" id="personas">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlSelect1">Camas simples</label>
+		<select class="form-control" name="" id="camas__simples">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+	</div>
+	<div class="form-group">
+	<label for="exampleFormControlSelect1">Camas dobles</label>
+	<select class="form-control" id="camas__dobles">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+	</select>
+	</div>
+	<div class="buttom">
+		<button type="submit" class="btn btn-primary">Reservá</button>
+	</div>
+</form>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

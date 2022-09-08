@@ -1,0 +1,20 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "Proyecto primera parte",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "CeffeBG",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  }
+}

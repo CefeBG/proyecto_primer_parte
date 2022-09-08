@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    width: 50%;
+
+}
+.buttom{
+    margin: 5px;
+
+}
+@media only screen and (max-width:1024px){
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+}
